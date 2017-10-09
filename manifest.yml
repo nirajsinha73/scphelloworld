@@ -1,0 +1,7 @@
+---
+applications:
+- name: scphelloworld
+  memory: 512M
+  host: scphelloworld
+  domain: cfapps.eu10.hana.ondemand.com
+  path: target\scphelloworld-0.0.1-SNAPSHOT.war
