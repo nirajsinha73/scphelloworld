@@ -1,7 +1,7 @@
 ---
 applications:
 - name: scphelloworld
-  memory: 512M
+  memory: 1024M
   host: scphelloworld
-  domain: cfapps.eu10.hana.ondemand.com
-  path: target\scphelloworld-0.0.1-SNAPSHOT.war
+  domain: api.run.pivotal.io
+  path: /var/lib/jenkins/workspace/pcf_build_javaApp/target/scphelloworld-0.0.1-SNAPSHOT.war
