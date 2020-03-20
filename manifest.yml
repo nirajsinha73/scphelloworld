@@ -1,6 +1,6 @@
 ---
 applications:
-- name: scphelloworld
+- name: pcfhelloworld
   memory: 1024M
   path: /var/lib/jenkins/workspace/pcf_build_javaApp/target/scphelloworld-0.0.1-SNAPSHOT.war
   instances: 1
