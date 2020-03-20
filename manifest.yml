@@ -3,3 +3,7 @@ applications:
 - name: scphelloworld
   memory: 1024M
   path: /var/lib/jenkins/workspace/pcf_build_javaApp/target/scphelloworld-0.0.1-SNAPSHOT.war
+  instances: 1
+  random-route: true
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
