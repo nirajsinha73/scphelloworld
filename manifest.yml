@@ -2,6 +2,4 @@
 applications:
 - name: scphelloworld
   memory: 1024M
-  host: scphelloworld
-  domain: api.run.pivotal.io
   path: /var/lib/jenkins/workspace/pcf_build_javaApp/target/scphelloworld-0.0.1-SNAPSHOT.war
